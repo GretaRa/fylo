@@ -2,7 +2,7 @@ import Logo from '../images/logo.svg';
 
 const Header = () => {
   return (
-    <div className='bg-primary-intro text-neutral-white flex justify-between px-20 pt-10 pb-4'>
+    <div className='bg-primary-intro flex justify-between items-center px-20 pt-16 pb-16'>
       <img src={Logo} alt='logo' />
       <nav>
         <ul className='flex items-center gap-14'>
