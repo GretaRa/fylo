@@ -6,9 +6,9 @@ const Header = () => {
       <img src={Logo} alt='logo' className='w-20 md:w-auto' />
       <nav>
         <ul className='flex items-center md:gap-14 gap-4 text-sm md:text-base'>
-          <li>Features</li>
-          <li>Team</li>
-          <li>Sign In</li>
+          <li className='cursor-pointer hover:underline hover:underline-offset-2'>Features</li>
+          <li className='cursor-pointer hover:underline hover:underline-offset-2'>Team</li>
+          <li className='cursor-pointer hover:underline hover:underline-offset-2'>Sign In</li>
         </ul>
       </nav>
     </div>

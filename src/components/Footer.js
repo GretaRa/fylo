@@ -29,7 +29,7 @@ const Footer = () => {
             </ul>
           </div>      
           <div className="flex flex-col gap-4 mt-8 lg:mt-0">
-            <h3 className=" font-special text-lg">About Us</h3>
+            <h3 className=" font-special text-lg hover:font-bold cursor-pointer">About Us</h3>
             <ul className="flex flex-col gap-2">
               <li>Jobs</li>
               <li>Press</li>
@@ -37,16 +37,16 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col gap-4 mt-8 lg:mt-0">
-            <h3 className=" font-special text-lg">Contact Us</h3>
+            <h3 className=" font-special text-lg hover:font-bold cursor-pointer">Contact Us</h3>
             <ul className="flex flex-col gap-2">
               <li>Terms</li>
               <li>Privacy</li>
             </ul>
           </div>
           <div className="flex gap-4 justify-center mt-6 lg:mt-0">
-            <AiOutlineFacebook className="text-3xl" />
-            <AiOutlineTwitter className="text-3xl" />
-            <AiOutlineInstagram className="text-3xl" />
+            <AiOutlineFacebook className="text-3xl hover:fill-accent-cyan cursor-pointer" />
+            <AiOutlineTwitter className="text-3xl hover:fill-accent-cyan cursor-pointer" />
+            <AiOutlineInstagram className="text-3xl hover:fill-accent-cyan cursor-pointer" />
           </div>                
         </div>
       </div>
