@@ -9,11 +9,11 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="bg-primary-footer">
-      <div className="container mx-auto px-20 py-10">
+      <div className="container mx-auto lg:px-20 px-10 py-10">
       <img src={Logo} alt="logo" />
-        <div className="flex justify-between pt-8"> 
+        <div className="flex flex-col lg:flex-row justify-between pt-8 gap-4"> 
           <div className="flex gap-8">
-            <i><img src={Location} alt="icon" /></i>
+            <i className='shrink-0'><img src={Location} alt="icon" /></i>
             <p className="font-special text-lg max-w-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           </div>
           <div className="flex flex-col gap-4">
@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
             </ul>
           </div>      
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 mt-8 lg:mt-0">
             <h3 className=" font-special text-lg">About Us</h3>
             <ul className="flex flex-col gap-2">
               <li>Jobs</li>
@@ -36,14 +36,14 @@ const Footer = () => {
               <li>Blog</li>
             </ul>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 mt-8 lg:mt-0">
             <h3 className=" font-special text-lg">Contact Us</h3>
             <ul className="flex flex-col gap-2">
               <li>Terms</li>
               <li>Privacy</li>
             </ul>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center mt-6 lg:mt-0">
             <AiOutlineFacebook className="text-3xl" />
             <AiOutlineTwitter className="text-3xl" />
             <AiOutlineInstagram className="text-3xl" />
