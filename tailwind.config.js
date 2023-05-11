@@ -25,6 +25,9 @@ module.exports = {
           'white': 'hsl(0, 0%, 100%)',
         },
       },
+      backgroundImage: {
+        'hero-pattern': "url('images/bg-curvy-desktop.svg')",
+      },
     },
   },
   plugins: [],
