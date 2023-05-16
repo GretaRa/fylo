@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import ProductGrid from './components/ProductGrid';
 import MotivationSection from './components/MotivationSection';
+import ReviewGrid from './components/ReviewGrid';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <ProductGrid />
       <MotivationSection />
+      <ReviewGrid />
       <Footer />
     </div>
   );
