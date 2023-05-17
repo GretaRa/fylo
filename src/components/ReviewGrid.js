@@ -5,8 +5,8 @@ import Profile3 from "../images/profile-3.jpg";
 
 const ReviewGrid = () => {
   return (
-    <div className="bg-primary-main flex flex-col items-center justify-center gap-10 px-[10%]">
-      <div className="flex flex-col md:flex-row gap-16">
+    <div className="bg-primary-main flex flex-col items-center justify-around md:gap-10 px-[10%]">
+      <div className="flex flex-col md:flex-row gap-8 md:gap-16">
         <Review
           review={{
             body:

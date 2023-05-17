@@ -27,6 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('images/bg-curvy-desktop.svg')",
+        'hero-pattern-mobile': "url('images/bg-curvy-mobile.svg')",
       },
     },
   },
