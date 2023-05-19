@@ -1,3 +1,4 @@
+import SignUp from './SignUp';
 import Logo from '../images/logo.svg';
 import Location from '../images/icon-location.svg';
 import Phone from '../images/icon-phone.svg';
@@ -8,8 +9,9 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-footer">
-      <div className="container mx-auto lg:px-20 px-10 py-10">
+    <footer className="bg-primary-footer relative">
+      <SignUp />
+      <div className="container mx-auto lg:px-20 px-10 pb-10 pt-20">
       <img src={Logo} alt="logo" />
         <div className="flex flex-col lg:flex-row justify-between pt-8 gap-4"> 
           <div className="flex gap-8">

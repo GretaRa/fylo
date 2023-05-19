@@ -11,7 +11,7 @@ const Hero = () => {
 					them wherever you need, share and collaborate with friends family, and
 					co-workers.
 				</p>
-				<button className="rounded-3xl bg-gradient-to-r from-accent-cyan to-accent-blue hover:to-accent-cyan px-24 py-4 font-special font-bold z-10">Get Started</button>
+				<button className="rounded-3xl bg-gradient-to-r from-accent-cyan to-accent-blue hover:to-accent-cyan px-24 py-4 font-special font-bold">Get Started</button>
 			</div>
     </div>
 	);
