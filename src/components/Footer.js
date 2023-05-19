@@ -33,16 +33,16 @@ const Footer = () => {
           <div className="flex flex-col gap-4 mt-8 lg:mt-0">
             <h3 className=" font-special text-lg hover:font-bold cursor-pointer">About Us</h3>
             <ul className="flex flex-col gap-2">
-              <li>Jobs</li>
-              <li>Press</li>
-              <li>Blog</li>
+              <li className='cursor-pointer'>Jobs</li>
+              <li className='cursor-pointer'>Press</li>
+              <li className='cursor-pointer'>Blog</li>
             </ul>
           </div>
           <div className="flex flex-col gap-4 mt-8 lg:mt-0">
             <h3 className=" font-special text-lg hover:font-bold cursor-pointer">Contact Us</h3>
             <ul className="flex flex-col gap-2">
-              <li>Terms</li>
-              <li>Privacy</li>
+              <li className='cursor-pointer'>Terms</li>
+              <li className='cursor-pointer'>Privacy</li>
             </ul>
           </div>
           <div className="flex gap-4 justify-center mt-6 lg:mt-0">
