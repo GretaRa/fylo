@@ -24,20 +24,20 @@ const Footer = () => {
 						</p>
 					</div>
 					<div className="flex flex-col gap-4">
-						<ul className="flex flex-col gap-2">
+						<div className="flex flex-col gap-2">
 							<div className="flex gap-8">
 								<i>
 									<img src={Phone} alt="icon" />
 								</i>
-								<li>+1-543-123-4567</li>
+								<p>+1-543-123-4567</p>
 							</div>
 							<div className="flex gap-8">
 								<i>
 									<img src={Email} alt="icon" />
 								</i>
-								<li>example@fylo.com</li>
+								<p>example@fylo.com</p>
 							</div>
-						</ul>
+						</div>
 					</div>
 					<div className="flex flex-col gap-4 mt-8 lg:mt-0">
 						<h3 className=" font-special text-lg hover:font-bold cursor-pointer">
