@@ -2,7 +2,7 @@ import HeroImg from "../images/illustration-intro.png";
 
 const Hero = () => {
 	return (
-		<div className="flex flex-col items-center bg-primary-intro text-center">
+		<div className="flex flex-col items-center text-center">
 			<img
 				src={HeroImg}
 				alt="hero"
@@ -11,7 +11,7 @@ const Hero = () => {
 			<h1 className="md:text-4xl text-2xl leading-relaxed font-special font-bold md:max-w-3xl max-w-xs py-8">
 				All your files in one secure location, accessible anywhere.
 			</h1>
-			<div className="flex flex-col items-center bg-hero-pattern-mobile lg:bg-hero-pattern bg-cover bg-no-repeat bg-bottom min-w-full pb-80 -mb-[60px]">
+			<div className="flex flex-col items-center">
 				<p className="md:max-w-xl md:text-lg max-w-xs pb-8">
 					Fylo stores all your most important files in one secure location.
 					Access them wherever you need, share and collaborate with friends
