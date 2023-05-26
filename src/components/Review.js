@@ -6,7 +6,7 @@ const Review = ({ review }) => {
 			<div className="flex gap-3">
 				<img className="rounded-full w-8 h-8" src={image} alt={name} />
 				<div>
-					<h3 className="font-bold text-sm">{name}</h3>
+					<p className="font-bold text-sm">{name}</p>
 					<p className="text-xs">{title}</p>
 				</div>
 			</div>

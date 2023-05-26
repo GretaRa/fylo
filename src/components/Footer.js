@@ -50,9 +50,9 @@ const Footer = () => {
 						</ul>
 					</div>
 					<div className="flex flex-col gap-4 mt-8 lg:mt-0">
-						<h3 className=" font-special text-lg hover:font-bold cursor-pointer">
+						<h2 className=" font-special text-lg hover:font-bold cursor-pointer">
 							Contact Us
-						</h3>
+						</h2>
 						<ul className="flex flex-col gap-2">
 							<li className="cursor-pointer">Terms</li>
 							<li className="cursor-pointer">Privacy</li>
