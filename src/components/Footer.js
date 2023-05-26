@@ -65,6 +65,10 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
+			<p class="text-center pb-5">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="hover:text-accent-cyan" rel="noreferrer">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/GretaRa" className="hover:text-accent-cyan">Greta Rakauskaite</a>.
+    	</p>
 		</footer>
 	);
 };

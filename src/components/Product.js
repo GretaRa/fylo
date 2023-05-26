@@ -1,7 +1,6 @@
 const Product = ({ product }) => {
 	const { image, title, description } = product;
-
-	console.log(image);
+	
 	return (
 		<div className="bg-primary-main flex flex-col items-center gap-5">
 			<img className="max-w-min" src={image} alt={title} />
